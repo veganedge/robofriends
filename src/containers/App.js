@@ -38,12 +38,10 @@ class App extends React.Component {
                     <Scroll>
                         <CardList robots={filteredRobots}/>
                     </Scroll>
-                    
                 </div>
             );
         }
     }
-    
 }
 
 export default App;
